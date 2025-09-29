@@ -11,9 +11,13 @@ body {
 li {
   list-style-type: none;
   margin-bottom: 10px;
+  width:fit-content;
+  transition: all 0.3s ease;
 }
 
-
+li:hover{
+  transform: scale(1.2);
+}
 
 a {
   text-decoration: none;
@@ -26,5 +30,5 @@ a:hover {
   background-color: #fcf087;
   border-radius: 10px;
   color: black;
-  transform: scale(2);
+  
 }
